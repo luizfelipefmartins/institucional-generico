@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --background-primary: #191C1F;
+    --background-secondary: #212529;
+    --background-tertiary: #4C6EF5;
+    --background-quaternary: #191C1F;
+    --background-btnModalClose: #343A40;
+    --background-btnHover1: #364FC7;
+    --text-primary: #EDF2FF;
+    --text-secondary: #4C6EF5;
+    --text-tertiary: #ADB5BD;
+    --text-quaternary: #F8F9FA;
+    --text-quinary: #CED4DA;
+    --text-btnClose: #868E96;
+    --font-family1: 'Inter', sans-serif;
+    --fontSize-btnHeader: 14px;
+    --border-btnHeader: 1px solid #EDF2FF;
+    --border-modal: 2px solid var(--text-secondary);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: var(--font-family1);
+}
+
+dialog {
+    border: none;
+    padding: 0;
+}
+
+
+
